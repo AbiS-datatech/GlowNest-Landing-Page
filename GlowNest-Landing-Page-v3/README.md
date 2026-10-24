@@ -4,6 +4,11 @@ Responsive landing page for **GlowNest**, a fictional premium skincare brand. Bu
 
 > **Disclaimers:** GlowNest is a fictional brand. Product names, prices and images are demo content. The bag is a front-end demonstration with no checkout. Newsletter submission does not contact a server. Testimonials are illustrative sample content, not real reviews. Ingredient text is general education and not a claim about any product.
 
+## Live Demo
+[View GlowNest Website](https://dreamy-pastelito-0c223c.netlify.app)
+
+## GitHub Repository
+https://github.com/AbiS-datatech/GlowNest-Landing-Page
 ## Brand concept
 Gentle, simple, everyday self-care. Tagline: *Your Skin. Your Glow. Your Way.* Palette: ivory, cream, sage, forest green, olive, taupe, charcoal. Cormorant Garamond (headlines) + DM Sans (body).
 
@@ -49,7 +54,7 @@ Current Chrome, Edge, Firefox and Safari. Uses `grid-template-rows` transitions 
 Mobile menu (aria-expanded, closes on link click/Escape), smooth scrolling with sticky-header offset, bag with delegated listeners and localStorage (invalid data ignored), toast confirmations, newsletter validation, FAQ accordion, scroll reveal, back-to-top, image fallback.
 
 ## Known limitations
-- Not tested in a real browser during creation; see `docs/testing-checklist.md`.
+ see `docs/testing-checklist.md`.
 - Unsplash image IDs were not verified from the build environment.
 - Bag has no checkout by design. Social links are placeholders.
 
