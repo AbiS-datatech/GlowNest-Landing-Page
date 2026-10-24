@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GlowNest | Your Skin. Your Glow. Your Way.</title>
+<meta name="description" content="GlowNest is a fictional premium skincare brand built around simple, gentle everyday rituals.">
+<link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css?v=3">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="announce"><p>Your daily ritual, reimagined. Discover the GlowNest collection.</p></div>
+
+<header class="header" id="top">
+  <div class="wrap nav">
+    <a class="logo" href="#home" aria-label="GlowNest home">GlowNest</a>
+    <nav id="site-nav" class="menu" aria-label="Main">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#ingredients">Ingredients</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-tools">
+      <button class="bag-btn" id="bag-open" type="button" aria-label="Open shopping bag, 0 items" aria-controls="bag-panel" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 8h14l-1 12H6L5 8z"/><path d="M9 8V6a3 3 0 0 1 6 0v2"/></svg>
+        <span class="bag-count" id="bag-count">0</span>
+      </button>
+      <button class="burger" id="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Skincare, simplified</p>
+      <h1>Feel good in the skin you're in.</h1>
+      <p class="lead">Thoughtfully crafted skincare essentials for your everyday ritual. Simple formulas, comforting textures, and a little moment of care for yourself.</p>
+      <div class="btn-row">
+        <a class="btn btn-primary" href="#shop">Explore the Collection</a>
+        <a class="btn btn-ghost" href="#story">Our Philosophy</a>
+      </div>
+      <p class="note">Your routine. Your rhythm.</p>
+    </div>
+    <figure class="hero-img img-box">
+  <img
+    src="https://i.pinimg.com/1200x/af/c7/ff/afc7ffabdf79dc915f85077189ee03ae.jpg"
+    width="1000"
+    height="1250"
+    alt="Woman with glowing natural skin in a skincare beauty portrait"
+  >
+</figure>
+  </div>
+</section>
+
+<section class="section story" id="story">
+  <div class="wrap split">
+    <figure class="img-box story-img reveal">
+      <img loading="lazy" src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?auto=format&fit=crop&w=900&q=80" width="900" height="1000" alt="Neutral skincare packaging resting on a stone surface">
+    </figure>
+    <div class="reveal">
+      <p class="eyebrow">A little about us</p>
+      <h2>Less noise. More care.</h2>
+      <p class="lead">GlowNest is built around the idea that skincare should feel like a small, meaningful moment in your day. We celebrate thoughtful routines, comfortable textures, and making time for yourself.</p>
+      <a class="btn btn-primary" href="#values">Discover Our Story</a>
+    </div>
+  </div>
+</section>
+
+<section class="section tint" id="shop">
+  <div class="wrap">
+    <div class="head reveal"><h2>Your everyday essentials</h2><p class="lead">Meet the little rituals your skin will love.</p></div>
+    <div class="products" id="products">
+      <article class="card reveal">
+        <div class="img-box card-img"><img loading="lazy" src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=600&q=80" width="600" height="600" alt="Dewdrop Gentle Cleanser bottle (illustrative image)"></div>
+        <div class="card-body"><p class="cat">Cleanse</p><h3>Dewdrop Gentle Cleanser</h3><p>A gentle everyday cleanser for a fresh, comfortable feel.</p>
+        <div class="card-foot"><span class="price">₹499</span><button class="btn btn-small add-btn" type="button" data-id="dewdrop" data-name="Dewdrop Gentle Cleanser" data-price="499">Add to Bag</button></div></div>
+      </article>
+      <article class="card reveal">
+        <div class="img-box card-img"><img loading="lazy" src="https://images.unsplash.com/photo-1612817288484-6f916006741a?auto=format&fit=crop&w=600&q=80" width="600" height="600" alt="Cloudveil Daily Moisturizer jar (illustrative image)"></div>
+        <div class="card-body"><p class="cat">Hydrate</p><h3>Cloudveil Daily Moisturizer</h3><p>A lightweight daily moisturizer for soft, supple-feeling skin.</p>
+        <div class="card-foot"><span class="price">₹699</span><button class="btn btn-small add-btn" type="button" data-id="cloudveil" data-name="Cloudveil Daily Moisturizer" data-price="699">Add to Bag</button></div></div>
+      </article>
+      <article class="card reveal">
+        <div class="img-box card-img"><img loading="lazy" src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=600&q=80" width="600" height="600" alt="Sunveil Daily Sunscreen tube (illustrative image)"></div>
+        <div class="card-body"><p class="cat">Protect</p><h3>Sunveil Daily Sunscreen</h3><p>An easy-to-wear daily sunscreen for your daytime routine.</p>
+        <div class="card-foot"><span class="price">₹599</span><button class="btn btn-small add-btn" type="button" data-id="sunveil" data-name="Sunveil Daily Sunscreen" data-price="599">Add to Bag</button></div></div>
+      </article>
+      <article class="card reveal">
+        <div class="img-box card-img"><img loading="lazy" src="https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=600&q=80" width="600" height="600" alt="Petal Dew Hydrating Serum dropper bottle (illustrative image)"></div>
+        <div class="card-body"><p class="cat">Hydrate</p><h3>Petal Dew Hydrating Serum</h3><p>A lightweight hydrating step for a fresh-looking finish.</p>
+        <div class="card-foot"><span class="price">₹799</span><button class="btn btn-small add-btn" type="button" data-id="petaldew" data-name="Petal Dew Hydrating Serum" data-price="799">Add to Bag</button></div></div>
+      </article>
+    </div>
+    <p class="fine">Fictional demo products and prices. Images are illustrative.</p>
+  </div>
+</section>
+
+<section class="section" id="values">
+  <div class="wrap">
+    <div class="head reveal"><h2>Good skincare starts with thoughtful choices.</h2></div>
+    <ul class="values">
+      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 6c8 9 12 15 12 21a12 12 0 0 1-24 0c0-6 4-12 12-21z"/></svg><h3>Thoughtfully Made</h3><p>Everyday essentials designed around a simple routine.</p></li>
+      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 40S8 30 8 19a8 8 0 0 1 16-2 8 8 0 0 1 16 2c0 11-16 21-16 21z"/></svg><h3>Comfort First</h3><p>A skincare experience that feels gentle and uncomplicated.</p></li>
+      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="8"/><path d="M24 6v6M24 36v6M6 24h6M36 24h6"/></svg><h3>Everyday Rituals</h3><p>Small moments of care that fit naturally into your day.</p></li>
+      <li class="reveal"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M10 24h28"/><circle cx="24" cy="24" r="14"/></svg><h3>Less, But Better</h3><p>A considered collection without an overwhelming routine.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="section forest" id="ingredients">
+  <div class="wrap">
+    <div class="head reveal"><h2>Get to know your routine.</h2><p class="lead">General, educational notes on three commonly used skincare ingredients. This is illustrative content and does not list the contents of any GlowNest demo product.</p></div>
+    <div class="ingr">
+      <article class="reveal"><h3>Glycerin</h3><p>A widely used humectant, meaning it attracts water. You will find it in many cleansers and moisturizers for a soft, comfortable feel.</p></article>
+      <article class="reveal"><h3>Aloe Vera</h3><p>A plant long used in everyday skincare for its light, cooling texture. Common in gels and lotions.</p></article>
+      <article class="reveal"><h3>Hyaluronic Acid</h3><p>A popular hydrating ingredient in serums and creams, known for helping skin feel plump and moisturized.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="ritual">
+  <div class="wrap">
+    <div class="head reveal"><h2>Three steps. That's the ritual.</h2></div>
+    <ol class="steps">
+      <li class="reveal"><span class="num">01</span><h3>Cleanse</h3><p>Start fresh. A gentle wash removes the day and leaves skin feeling comfortable.</p></li>
+      <li class="reveal"><span class="num">02</span><h3>Hydrate</h3><p>Layer on a lightweight moisturizer or serum to keep skin feeling soft.</p></li>
+      <li class="reveal"><span class="num">03</span><h3>Protect</h3><p>Finish your morning with a daily sunscreen before heading out.</p></li>
+    </ol>
+    <div class="center reveal"><a class="btn btn-primary" href="#shop">Build Your Everyday Ritual</a></div>
+  </div>
+</section>
+
+<section class="section tint" id="reviews">
+  <div class="wrap">
+    <div class="head reveal"><h2>Customer love</h2><p class="lead">Sample reviews for demonstration only. They are not real customer feedback.</p></div>
+    <div class="quotes">
+      <figure class="quote reveal"><blockquote>"My morning routine finally feels calm. Three steps and I'm out the door."</blockquote><figcaption>Meera S. <span>Sample review</span></figcaption></figure>
+      <figure class="quote reveal"><blockquote>"The textures are lovely and the packaging looks great on my shelf."</blockquote><figcaption>Arjun K. <span>Sample review</span></figcaption></figure>
+      <figure class="quote reveal"><blockquote>"Simple, easy to follow, and not overwhelming. Exactly what I wanted."</blockquote><figcaption>Nisha R. <span>Sample review</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="section news" id="newsletter">
+  <div class="wrap narrow reveal">
+    <h2>A little glow in your inbox.</h2>
+    <p class="lead">Sign up for skincare notes, routine inspiration, and updates from GlowNest.</p>
+    <form id="news-form" novalidate>
+      <label for="email">Email address</label>
+      <div class="field">
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" aria-describedby="news-msg">
+        <button class="btn btn-primary" type="submit">Subscribe</button>
+      </div>
+      <p id="news-msg" class="msg" role="status" aria-live="polite"></p>
+    </form>
+    <p class="fine">Front-end demo only. Your email is not stored or sent anywhere.</p>
+  </div>
+</section>
+
+<section class="section" id="faq">
+  <div class="wrap narrow">
+    <div class="head reveal"><h2>Questions, answered</h2><p class="lead">General skincare information, not medical advice or product claims.</p></div>
+    <div class="faq">
+      <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="a1" id="q1">How do I build a simple skincare routine?</button></h3><div class="faq-a" id="a1" role="region" aria-labelledby="q1"><div><p>A common starting point is three steps: cleanse, hydrate, and protect with sunscreen in the morning. Add steps slowly and only if you need them.</p></div></div></div>
+      <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="a2" id="q2">Can I use these products every day?</button></h3><div class="faq-a" id="a2" role="region" aria-labelledby="q2"><div><p>GlowNest products are fictional demo items, so there is no usage guidance. For real products, follow the label and check with a professional if you have concerns.</p></div></div></div>
+      <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="a3" id="q3">How can I choose products for my routine?</button></h3><div class="faq-a" id="a3" role="region" aria-labelledby="q3"><div><p>Think about what each step does for you, read ingredient lists, and introduce one new product at a time so it's easy to see how your skin feels.</p></div></div></div>
+      <div class="faq-item"><h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="a4" id="q4">Where can I find product information?</button></h3><div class="faq-a" id="a4" role="region" aria-labelledby="q4"><div><p>On a real brand's packaging and product pages. Here, each card shows the demo name, category, price and a short description only.</p></div></div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer" id="contact">
+  <div class="wrap foot-grid">
+    <div><a class="logo" href="#home">GlowNest</a><p>Your Skin. Your Glow. Your Way.</p><p><a href="mailto:hello@glownest.example">hello@glownest.example</a></p></div>
+    <nav aria-label="Footer"><h3>Explore</h3><ul><li><a href="#home">Home</a></li><li><a href="#story">Our Story</a></li><li><a href="#ingredients">Ingredients</a></li><li><a href="#faq">FAQ</a></li></ul></nav>
+    <nav aria-label="Shop links"><h3>Shop</h3><ul><li><a href="#shop">All essentials</a></li><li><a href="#ritual">The ritual</a></li><li><a href="#newsletter">Newsletter</a></li></ul></nav>
+    <div><h3>Follow</h3><ul><li><a href="#" data-demo>Instagram</a></li><li><a href="#" data-demo>Pinterest</a></li><li><a href="#" data-demo>YouTube</a></li></ul></div>
+  </div>
+  <div class="wrap legal"><p>&copy; 2026 GlowNest. Fictional brand created for a web development internship demo.</p></div>
+</footer>
+
+<button class="to-top" id="to-top" type="button" aria-label="Back to top" hidden>
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="overlay" id="overlay" hidden></div>
+<aside class="bag" id="bag-panel" aria-label="Shopping bag" aria-hidden="true" tabindex="-1">
+  <div class="bag-head"><h2>Your bag</h2><button type="button" id="bag-close" class="icon-btn" aria-label="Close bag">&times;</button></div>
+  <ul class="bag-list" id="bag-list"></ul>
+  <p class="bag-empty" id="bag-empty">Your bag is empty. Add an essential from the collection.</p>
+  <div class="bag-foot"><p class="subtotal"><span>Subtotal</span><strong id="bag-subtotal">₹0</strong></p><p class="fine">Demo bag only. There is no checkout.</p></div>
+</aside>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="js/script.js?v=3"></script>
+</body>
+</html>
